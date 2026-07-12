@@ -30,8 +30,8 @@ public:
     }
     vector<string> createGrid(int m, int n, int k) {
         K = k;
-        a = min(m, 4);
-        b = min(n, 4);
+        a = min(m, k);
+        b = min(n, k);
         grid.assign(a, string(b, '.'));
         for(int i = 0; i < a; i++) {
             for(int j = 0; j < b; j++) {
