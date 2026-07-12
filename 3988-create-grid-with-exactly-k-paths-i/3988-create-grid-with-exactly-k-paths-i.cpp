@@ -37,8 +37,6 @@ public:
         grid.assign(a, string(b, '.'));
         for(int i = 0; i < a; i++) {
             for(int j = 0; j < b; j++) {
-                if(i == 0 && j == 0) continue;
-                if(i == a - 1 && j == b - 1) continue;
                 cells.push_back({i, j});
             }
         }
