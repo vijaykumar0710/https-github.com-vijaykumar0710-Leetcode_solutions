@@ -5,8 +5,7 @@ public:
     vector<pair<int,int>> cells;
     int countPaths() {
         vector<vector<int>> dp(a, vector<int>(b, 0));
-        dp[0][0] = 1;
-        for(int j=1;j<b;j++){
+        for(int j=0;j<b;j++){
             if(grid[0][j]=='#') break;
             dp[0][j]=1;
         }
