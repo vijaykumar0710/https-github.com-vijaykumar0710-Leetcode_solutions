@@ -6,15 +6,18 @@ public:
     int countPaths() {
         vector<vector<int>> dp(a, vector<int>(b, 0));
         dp[0][0] = 1;
-        for(int i = 0; i < a; i++) {
-            for(int j = 0; j < b; j++) {
-                if(grid[i][j] == '#') {
-                    dp[i][j] = 0;
-                    continue;
-                }
-                if(i == 0 && j == 0) continue;
-                if(i > 0) dp[i][j] += dp[i - 1][j];
-                if(j > 0) dp[i][j] += dp[i][j - 1];
+        for(int j=1;j<b;j++){
+            if(grid[0][j]=='#') break;
+            dp[0][j]=1;
+        }
+        for(int i=1;i<a;i++){
+            if(grid[i][0]=='#') break;
+            dp[i][0]=1;
+        }
+        for(int i = 1; i < a; i++) {
+            for(int j = 1; j < b; j++) {
+                if(grid[i][j] == '#') continue;
+                 dp[i][j]= dp[i - 1][j]+dp[i][j - 1];
             }
         }
         return dp[a - 1][b - 1];
