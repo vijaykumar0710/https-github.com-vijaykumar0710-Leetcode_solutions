@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0577-employee-bonus](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0577-employee-bonus) |
 | [1661-average-time-of-process-per-machine](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1661-average-time-of-process-per-machine) |
 ## Segment Tree
 |  |
