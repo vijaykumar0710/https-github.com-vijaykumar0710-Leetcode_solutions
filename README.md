@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1922-count-good-numbers](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1922-count-good-numbers) |
 | [1998-gcd-sort-of-an-array](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1998-gcd-sort-of-an-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -92,4 +93,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3501-maximize-active-section-with-trade-ii) |
+## Recursion
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
