@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0312-burst-balloons](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0312-burst-balloons) |
 | [1260-shift-2d-grid](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1260-shift-2d-grid) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1998-gcd-sort-of-an-array](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1998-gcd-sort-of-an-array) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0312-burst-balloons](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0312-burst-balloons) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 ## Number Theory
