@@ -11,8 +11,7 @@ public:
         }
     }
     long long minCost(int m, int n, vector<vector<int>>& penalty) {
-        vector<vector<vector<long long>>> dist(
-            m, vector<vector<long long>>(n, vector<long long>(2, LLONG_MAX)));       
+        vector<vector<vector<long long>>> dist(m,vector<vector<long long>>(n, vector<long long>(2, LLONG_MAX)));       
         priority_queue<vector<long long>, vector<vector<long long>>, greater<vector<long long>>> pq;
         dist[0][0][1] = EC(0, 0);
         pq.push({dist[0][0][1], 0, 0, 1});
