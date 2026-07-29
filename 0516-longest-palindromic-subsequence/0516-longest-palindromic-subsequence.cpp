@@ -4,7 +4,7 @@ public:
         int n=s.size();
         vector<vector<int>>t(n,vector<int>(n,0));
         for(int len=1;len<=n;len++){
-            for(int i=0;len+i-1<n;i++){
+            for(int i=0;i<=n-len;i++){
                 int j=len+i-1;
                 if(len==1) t[i][i]=1;
                 else{
