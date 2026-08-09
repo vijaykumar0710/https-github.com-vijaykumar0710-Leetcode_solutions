@@ -176,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0687-longest-univalue-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0687-longest-univalue-path) |
 | [3310-remove-methods-from-project](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
@@ -217,4 +218,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1140-stone-game-ii) |
+## Tree
+|  |
+| ------- |
+| [0687-longest-univalue-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0687-longest-univalue-path) |
+## Binary Tree
+|  |
+| ------- |
+| [0687-longest-univalue-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0687-longest-univalue-path) |
+## DP on Trees
+|  |
+| ------- |
+| [0687-longest-univalue-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0687-longest-univalue-path) |
 <!---LeetCode Topics End-->
