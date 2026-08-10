@@ -4,34 +4,32 @@ class Solution {
     vector<long long> bit;
     vector<int> a;
     set<int> s;
-    void add(int i, long long v) {
+    void update(int i, long long v) {
         for(; i <= n; i += i & -i) bit[i] += v;
     }
-    long long sum(int i) {
-        long long r = 0;
-        for(; i; i -= i & -i) r += bit[i];
-        return r;
+    long long query(int i) {
+        long long sum = 0;
+        for(; i>0; i -= i & -i) sum += bit[i];
+        return sum;
     }
     void in(int x) {
         auto it = s.lower_bound(x);
         int p = (it == s.begin()) ? -1 : *prev(it);
-        
         if(it != s.end()) {
-            if(p != -1) add(*it, -1LL * *it * (*it - p));
-            add(*it, 1LL * *it * (*it - x));
+            if(p != -1) update(*it, -1LL * *it * (*it - p));
+            update(*it, 1LL * *it * (*it - x));
         }
-        if(p != -1) add(x, 1LL * x * (x - p));
+        if(p != -1) update(x, 1LL * x * (x - p));
         s.insert(x);
     }
     void out(int x) {
         auto it = s.find(x);
         auto nx = next(it);
         int p = (it == s.begin()) ? -1 : *prev(it);
-        
-        if(p != -1) add(x, -1LL * x * (x - p));
+        if(p != -1) update(x, -1LL * x * (x - p));
         if(nx != s.end()) {
-            add(*nx, -1LL * *nx * (*nx - x));
-            if(p != -1) add(*nx, 1LL * *nx * (*nx - p));
+            update(*nx, -1LL * *nx * (*nx - x));
+            if(p != -1) update(*nx, 1LL * *nx * (*nx - p));
         }
         s.erase(it);
     }
@@ -64,7 +62,7 @@ class Solution {
                     continue;
                 }       
                 int f = *it, l = *prev(s.lower_bound(y));
-                ans.push_back(1LL * y * (l - x) - 1LL * f * (f - x) - sum(l) + sum(f));
+                ans.push_back(1LL * y * (l - x) - 1LL * f * (f - x) - query(l) + query(f));
             }
         }
         return ans;
