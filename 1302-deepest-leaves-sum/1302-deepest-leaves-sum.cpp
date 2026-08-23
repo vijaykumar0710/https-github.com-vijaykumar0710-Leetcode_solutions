@@ -2,7 +2,6 @@ class Solution {
 public:
 priority_queue<pair<int,int>>pq;
 void fn(TreeNode* root,int d){
-    if(!root) return;
     if(root->left) fn(root->left,d+1);
     if(root->right) fn(root->right,d+1);
     if(!root->left && !root->right){
