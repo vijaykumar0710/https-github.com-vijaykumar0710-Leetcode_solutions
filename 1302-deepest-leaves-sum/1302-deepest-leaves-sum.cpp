@@ -1,23 +1,22 @@
 class Solution {
 public:
-priority_queue<pair<int,int>>pq;
-void fn(TreeNode* root,int d){
-    if(root->left) fn(root->left,d+1);
-    if(root->right) fn(root->right,d+1);
+int sum=0;
+void fn(TreeNode* root,int &h,int d){
+    if(root->left) fn(root->left,h,d+1);
+    if(root->right) fn(root->right,h,d+1);
     if(!root->left && !root->right){
-        pq.push({d,root->val});
-        return;
+        if(h==d) sum+=root->val;
     }
 }
+int dfs(TreeNode* root){
+if(!root) return 0;
+int left=dfs(root->left);
+int right=dfs(root->right);
+return 1+max(left,right);
+}
     int deepestLeavesSum(TreeNode* root) {
-        fn(root,0);
-        int sum=0;
-        int x=-1;
-        if(!pq.empty()) x=pq.top().first;
-        while(!pq.empty() && pq.top().first==x){
-            sum+=pq.top().second;
-            pq.pop();
-        }
+        int height=dfs(root);
+        fn(root,height,1);
         return sum;
     }
 };
