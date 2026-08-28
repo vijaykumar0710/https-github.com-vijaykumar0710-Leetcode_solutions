@@ -2,7 +2,7 @@ class Solution {
 public:
     bool find132pattern(vector<int>& nums) {
         int n=nums.size();
-        vector<int>left_min(n),PGE(n,INT_MIN);
+        vector<int>left_min(n),PGE(n,-1e9);
         left_min[0]=nums[0];
         for(int i=1;i<n;i++) left_min[i]=min(nums[i],left_min[i-1]);
         stack<int>st;
