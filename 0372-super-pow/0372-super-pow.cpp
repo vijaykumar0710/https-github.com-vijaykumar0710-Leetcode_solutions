@@ -17,8 +17,10 @@ public:
         bool isLarge = false; 
         for (auto x : b) {
             n = n * 10 + x;
-            if (n >= m) isLarge = true; 
+            if (n >= m) {
+            isLarge = true; 
             n%=m;
+            }
         }
         if (isLarge) n += 1140; 
         return power(a, n, 1337);
