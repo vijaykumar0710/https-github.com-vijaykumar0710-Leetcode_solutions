@@ -12,11 +12,15 @@ public:
         return res;
     }
     int superPow(int a, vector<int>& b) {
-        int m = 1140;
+        int m = 1140; 
         int n = 0;
-        for (auto x : b)
-            n = (n * 10 + x) % m;
-        int res = power(a, n+1140, 1337);
-        return res;
+        bool isLarge = false; 
+        for (auto x : b) {
+            n = n * 10 + x;
+            if (n >= m) isLarge = true; 
+            n%=m;
+        }
+        if (isLarge) n += 1140; 
+        return power(a, n, 1337);
     }
 };
