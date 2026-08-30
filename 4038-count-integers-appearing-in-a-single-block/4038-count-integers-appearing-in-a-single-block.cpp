@@ -8,10 +8,13 @@ public:
         for(auto [num,vec]:mp){
             bool fl=true;
             for(int i=0;i<vec.size()-1;i++){
-                if(vec[i+1]-vec[i]!=1) fl=false;
+                if(vec[i+1]-vec[i]!=1){
+                    fl=false;
+                    break;
+                }
             }
-        if(fl) res++;
+            if(fl) res++;
         }
-    return res;
+        return res;
     }
 };
