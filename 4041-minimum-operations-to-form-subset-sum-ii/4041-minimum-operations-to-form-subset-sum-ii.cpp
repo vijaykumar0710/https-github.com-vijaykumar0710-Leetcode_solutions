@@ -1,39 +1,39 @@
 class Solution {
-    public:
-    int n;
-    vector<vector<int>> memo;
-    int solve(int i, int current_sum, vector<int>& nums) {
-        if (current_sum == 0) return 0;
-        if (i == n || current_sum < 0) return 1e9;
-        if (memo[i][current_sum] != -1) {
-            return memo[i][current_sum];
-        }
-        int ans = 1e9;
-        ans = min(ans, solve(i + 1, current_sum, nums));
-        int div_val = nums[i];
-        int div_cost = 0;
-        while (true) {
-            long long mul_val = div_val;
-            int mul_cost = 0;
-            while (mul_val <= current_sum) {
-                if (mul_val > 0) {
-                    int total_cost = div_cost + mul_cost;
-                    ans = min(ans, total_cost + solve(i + 1, current_sum - mul_val, nums));
-                }
-                if (mul_val == 0) break; 
-                mul_val *= 2;
-                mul_cost++;
+public:
+int n;
+int t[1001][5001];
+int solve(int i,int sum,vector<int>&nums){
+    if(sum==0) return 0;
+    if(i==n || sum<0) return 1e9;
+    if(t[i][sum]!=-1) return t[i][sum];
+    int ans=1e9;
+    // skip
+    ans=min(ans,solve(i+1,sum,nums));
+    // take 
+    int div_val=nums[i];
+    int div_cost=0;
+    while(true){
+        long long mul_val=div_val;
+        int mul_cost=0;
+        while(mul_val<=sum){
+            if(mul_val>0){
+                int total_cost=div_cost+mul_cost;
+                ans=min(ans,total_cost+solve(i+1,sum-mul_val,nums));
             }
-            if (div_val == 0) break;
-            div_val /= 2;
-            div_cost++;
+            if(mul_val==0) break;
+            mul_val*=2;
+            mul_cost++;
         }
-        return memo[i][current_sum] = ans;
+        if(div_val==0) break;
+        div_val/=2;
+        div_cost++;
     }
+    return t[i][sum]=ans;
+}
     int minOperations(vector<int>& nums, int sum) {
-        n = nums.size();
-        memo.assign(n, vector<int>(sum + 1, -1));
-        int result = solve(0, sum, nums);
-        return result >= 1e9 ? -1 : result;
+        n=nums.size();
+        memset(t,-1,sizeof(t));
+        int res=solve(0,sum,nums);
+        return res==1e9?-1:res;
     }
 };
