@@ -282,18 +282,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0207-course-schedule) |
 | [0687-longest-univalue-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0687-longest-univalue-path) |
 | [1302-deepest-leaves-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1302-deepest-leaves-sum) |
 | [3310-remove-methods-from-project](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3310-remove-methods-from-project) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0207-course-schedule) |
 | [1302-deepest-leaves-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1302-deepest-leaves-sum) |
 | [3310-remove-methods-from-project](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3310-remove-methods-from-project) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 ## Graph Theory
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0207-course-schedule) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
 | [1584-min-cost-to-connect-all-points](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [3310-remove-methods-from-project](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3310-remove-methods-from-project) |
@@ -476,4 +479,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0372-super-pow](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0372-super-pow) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0207-course-schedule) |
+## Directed Acyclic Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
