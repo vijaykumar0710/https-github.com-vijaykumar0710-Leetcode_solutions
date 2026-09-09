@@ -1,23 +1,36 @@
 class Solution {
 public:
-int t[1001][51];
-int n;
-int solve(int i,int cuts,vector<int>&prefix){
-if(cuts==0) return prefix[n]-prefix[i];
-if(i>=n) return INT_MAX;
-if(t[i][cuts]!=-1) return t[i][cuts];
-int res=INT_MAX;
-for(int j=i+1;j<n;j++){
-    int sum=prefix[j]-prefix[i];
-    res=min(res,max(sum,solve(j,cuts-1,prefix)));
-}
-return t[i][cuts]=res;
-}
+    bool isValid(int k, vector<int>& nums, long long mid) {
+        int n = nums.size();
+        int cnt_sub = 0;
+        long long sum = 0;
+        for (int i = 0; i < n; i++) {
+            if (sum + nums[i] > mid) {
+                cnt_sub++;
+                sum = nums[i];
+            } else {
+                sum += nums[i];
+            }
+        }
+        return cnt_sub<=k-1;
+    }
     int splitArray(vector<int>& nums, int k) {
-        n=nums.size();
-        vector<int>prefix(n+1,0);
-        for(int i=0;i<n;i++) prefix[i+1]=prefix[i]+nums[i];
-        memset(t,-1,sizeof(t));
-        return solve(0,k-1,prefix);
+        int n = nums.size();
+        int l = INT_MIN;
+        long long r = 0;
+        for (auto num : nums) {
+            l = max(l, num);
+            r += num;
+        }
+        long long res = r;
+         while (l <= r) {
+            long long mid = l + (r - l) / 2;
+            if (isValid(k, nums, mid)) {
+                res = min(res,mid);
+                r = mid - 1;
+            } else
+                l = mid + 1;
+        }
+        return res;
     }
 };
