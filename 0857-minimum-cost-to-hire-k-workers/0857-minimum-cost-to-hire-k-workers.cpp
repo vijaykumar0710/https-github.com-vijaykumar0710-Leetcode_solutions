@@ -8,7 +8,7 @@ public:
         }
         sort(r.begin(),r.end());
         priority_queue<int>pq;
-        double cost=DBL_MAX;
+        double cost=1000000000000000.0;
         int qual=0;
         for(int i=0;i<n;i++){
             double cur_r=r[i].first;
