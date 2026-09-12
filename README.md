@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3471-find-the-largest-almost-missing-integer](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3471-find-the-largest-almost-missing-integer) |
 | [3483-unique-3-digit-even-numbers](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3483-unique-3-digit-even-numbers) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1872-stone-game-viii) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2407-longest-increasing-subsequence-ii) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Number Theory
 |  |
 | ------- |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2251-number-of-flowers-in-full-bloom](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2542-maximum-subsequence-score](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2542-maximum-subsequence-score) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3517-smallest-palindromic-rearrangement-i](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3517-smallest-palindromic-rearrangement-i) |
 | [3536-maximum-product-of-two-digits](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3536-maximum-product-of-two-digits) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3312-sorted-gcd-pair-queries) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3501-maximize-active-section-with-trade-ii) |
 ## Combinatorics
 |  |
