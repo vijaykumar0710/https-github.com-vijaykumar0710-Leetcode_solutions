@@ -35,8 +35,8 @@ long long countRangeSum(vector<int>&nums,int lower,int upper){
  return (1LL*n*(n+1))/2-res;
 }
     long long distantSubarrays(vector<int>& nums, int goal, int k) {
-        int lo=min(goal+k,goal-k);
-        int up=max(goal+k,goal-k);
+        int lo=goal-k;
+        int up=goal+k;
         return countRangeSum(nums,lo+1,up-1);
     }
 };
