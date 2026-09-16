@@ -7,7 +7,7 @@ int solve(int i,int k,int n){
     if(i>n) return 0;
     if(n-i<k) return 0;
     if(t[i][k]!=-1) return t[i][k];
-    long long cnt=0;
+    int cnt=0;
     cnt=(cnt%M + solve(i + 1, k, n)%M) % M;
     for(int j=i+1;j<=n;j++)
     cnt=(cnt%M+solve(j,k-1,n))%M;
