@@ -1,16 +1,23 @@
 class Solution {
 public:
-    bool three_sum(vector<int> temp) {
-        int n=temp.size();
-        vector<int> nums = temp;
-        sort(nums.begin(), nums.end());
-        set<int>st(temp.begin(),temp.end());
-        for (int i = 0; i < nums.size(); i++) {
-           for(int j=i+1;j<n;j++){
-             if(st.count(nums[i]+nums[j])) return false;
-           }
+    bool two_sum(vector<int>& nums, int target, int i, int j) {
+        while (i < j) {
+            if (nums[i] + nums[j] > target)
+                j--;
+            else if (nums[i] + nums[j] < target)
+                i++;
+            else return false;
         }
         return true;
+    }
+    bool three_sum(vector<int> nums) {
+        int n = nums.size();
+        sort(nums.begin(), nums.end());
+        bool flag = true;
+        for (int i = n-1; i>=0; i--) {
+            flag &= two_sum(nums, nums[i], 0, i-1);
+        }
+        return flag;
     }
     bool fn(vector<int>& nums, int len) {
         int n = nums.size();
