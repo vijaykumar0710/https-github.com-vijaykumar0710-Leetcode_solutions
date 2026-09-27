@@ -10,7 +10,7 @@ public:
         }
         return true;
     }
-    bool three_sum(vector<int> nums) {
+    bool three_sum(vector<int>&nums) {
         int n = nums.size();
         sort(nums.begin(), nums.end());
         bool flag = true;
