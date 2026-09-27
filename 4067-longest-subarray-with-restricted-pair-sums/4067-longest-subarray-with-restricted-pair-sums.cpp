@@ -36,7 +36,7 @@ public:
         while (l <= r) {
             int mid = l + (r - l) / 2;
             if (fn(nums, mid)) {
-                res = max(mid, res);
+                res = mid;
                 l = mid + 1;
             } else
                 r = mid - 1;
