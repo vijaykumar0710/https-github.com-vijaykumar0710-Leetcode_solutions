@@ -1,8 +1,6 @@
 class Solution {
 public:
     int longestValidParentheses(string s) {
-        //"Measure the distance from my current
-        // position back to the last invalid bracket."
         int res=0;
         stack<int>st;
         st.push(-1);
