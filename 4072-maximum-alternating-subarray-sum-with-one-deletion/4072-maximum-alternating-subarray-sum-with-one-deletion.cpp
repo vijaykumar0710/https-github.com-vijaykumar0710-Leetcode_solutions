@@ -1,19 +1,20 @@
 class Solution {
 public:
     long long maxAlternatingSum(vector<int>& nums) {
+        int n=nums.size();
         long long res=-1e16;
-        long long e0=-1e16,o0=-1e16;
-        long long e1=-1e16,o1=-1e16;
-        for(int i=0;i<nums.size();i++){
-          long long ne0=max(1LL*nums[i],o0+nums[i]);
-          long long no0=e0-nums[i];
-          long long ne1=max(e0,o1+nums[i]);
-          long long no1=max(o0,e1-nums[i]);
-          e0=ne0;
-          o0=no0;
-          e1=ne1;
-          o1=no1;
-          res=max({res,e0,o0,e1,o1});
+        long long even0=-1e16,odd0=-1e16;
+        long long even1=-1e16,odd1=-1e16;
+        for(int i=0;i<n;i++){
+           long long new_even0=max(1LL*nums[i],odd0+nums[i]);
+           long long new_odd0=even0-nums[i];
+           long long new_even1=max(even0,odd1+nums[i]);
+           long long new_odd1=max(odd0,even1-nums[i]);
+           res=max({res,new_even0,new_odd0,new_even1,new_odd1});
+           even0=new_even0;
+           odd0=new_odd0;
+           even1=new_even1;
+           odd1=new_odd1;
         }
         return res;
     }
