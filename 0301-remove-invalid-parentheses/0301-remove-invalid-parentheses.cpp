@@ -14,6 +14,7 @@ public:
         return b == 0;
     }
     void solve(int i, string &cur, string& s,int b, unordered_set<string>&ans) {
+        if (cur.size() + (s.size() - i) < b) return;
         if(cur.size()>b) return;
         if (i >= s.size()) {
             if ((int)cur.size()==b){
