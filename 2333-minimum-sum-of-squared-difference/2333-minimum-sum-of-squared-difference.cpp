@@ -5,10 +5,8 @@ public:
         map<int,int>mp;
         for(int i=0;i<n;i++) mp[abs(nums1[i]-nums2[i])]++;
         long long limit=k1+k2;
-        int x=!mp.empty()?mp.rbegin()->first:-1;
-        while(limit>0){
-        if(!mp.empty()) x=mp.rbegin()->first;
-        else break;
+        while(!mp.empty()&&limit>0){
+        int x=mp.rbegin()->first;
         int mini=min(limit,1LL*mp[x]);
         if(x-1>0) mp[x-1]+=mini;
          mp[x]-=mini;
