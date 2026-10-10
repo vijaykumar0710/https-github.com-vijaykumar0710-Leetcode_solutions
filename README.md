@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2407-longest-increasing-subsequence-ii) |
 | [2542-maximum-subsequence-score](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2542-maximum-subsequence-score) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1998-gcd-sort-of-an-array](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1998-gcd-sort-of-an-array) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2542-maximum-subsequence-score](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2542-maximum-subsequence-score) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3107-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3107-minimum-operations-to-make-median-of-array-equal-to-k) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2251-number-of-flowers-in-full-bloom](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2251-number-of-flowers-in-full-bloom) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3312-sorted-gcd-pair-queries) |
@@ -422,6 +425,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [2029-stone-game-ix](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2029-stone-game-ix) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2542-maximum-subsequence-score](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2542-maximum-subsequence-score) |
 | [3107-minimum-operations-to-make-median-of-array-equal-to-k](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3107-minimum-operations-to-make-median-of-array-equal-to-k) |
@@ -524,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0743-network-delay-time) |
 | [0857-minimum-cost-to-hire-k-workers](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0857-minimum-cost-to-hire-k-workers) |
 | [1094-car-pooling](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1094-car-pooling) |
+| [2333-minimum-sum-of-squared-difference](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2333-minimum-sum-of-squared-difference) |
 | [2542-maximum-subsequence-score](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2542-maximum-subsequence-score) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Monotonic Stack
