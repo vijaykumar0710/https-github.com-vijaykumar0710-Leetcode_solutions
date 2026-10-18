@@ -7,16 +7,14 @@ public:
        while (true) {
             char dir = grid[i][j];
             grid[i][j] = 'V';
-            int ni = i, nj = j;
-            if (dir == 'L') nj--;
-            else if (dir == 'R') nj++;
-            else if (dir == 'D') ni++;
-            else if (dir == 'U') ni--;
-            if (ni < 0 || ni >= m || nj < 0 || nj >= n || grid[ni][nj] == 'V') {
-                return {i, j};
+            int pi = i, pj = j;
+            if (dir == 'L') j--;
+            else if (dir == 'R') j++;
+            else if (dir == 'D') i++;
+            else if (dir == 'U') i--;
+            if (i < 0 || i >= m || j < 0 || j >= n || grid[i][j] == 'V') {
+                return {pi, pj};
             }
-            i = ni;
-            j = nj;
         }
     }
 };
