@@ -4,7 +4,7 @@ public:
         int m = grid.size();
         int n = grid[0].size();
         int i = 0, j = 0;
-        while (i < m && j < n && i>=0 && j>=0) {
+        while (i < m && j < n) {
             if (grid[i][j] == 'L') {
                 grid[i][j] = 'V';
                 j--;
