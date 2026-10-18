@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1563-stone-game-v](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1563-stone-game-v) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1584-min-cost-to-connect-all-points](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1406-stone-game-iii) |
 | [1563-stone-game-v](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1563-stone-game-v) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1872-stone-game-viii) |
 | [1922-count-good-numbers](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1922-count-good-numbers) |
@@ -141,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1563-stone-game-v](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1563-stone-game-v) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1872-stone-game-viii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1872-stone-game-viii) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
@@ -255,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Combinatorics
 |  |
 | ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/3312-sorted-gcd-pair-queries) |
@@ -284,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0128-longest-consecutive-sequence) |
 | [1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1489-find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1584-min-cost-to-connect-all-points](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1998-gcd-sort-of-an-array](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1998-gcd-sort-of-an-array) |
 ## Matrix
@@ -390,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0509-fibonacci-number](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0509-fibonacci-number) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -452,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0327-count-of-range-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0327-count-of-range-sum) |
 | [0372-super-pow](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0372-super-pow) |
 | [0493-reverse-pairs](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0493-reverse-pairs) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2407-longest-increasing-subsequence-ii](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2407-longest-increasing-subsequence-ii) |
 ## Design
 |  |
@@ -496,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1302-deepest-leaves-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1302-deepest-leaves-sum) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
@@ -505,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1302-deepest-leaves-sum](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1302-deepest-leaves-sum) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 ## DP on Trees
 |  |
@@ -516,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0700-search-in-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0701-insert-into-a-binary-search-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Stack
 |  |
 | ------- |
@@ -698,4 +708,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/0295-find-median-from-data-stream) |
+## Fermat's Little Theorem
+|  |
+| ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/vijaykumar0710/https-github.com-vijaykumar0710-Leetcode_solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 <!---LeetCode Topics End-->
