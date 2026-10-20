@@ -32,7 +32,6 @@ public:
        vector<int>divisor=divisor_sum(n);
        int res=0;
        for(auto d:divisor){
-        if(d==1) continue;
         bool flag=true;
         int minii=INT_MIN;
           for(int i=0;i<=n-d;i+=d){
@@ -50,10 +49,6 @@ public:
           }
           if(flag) res+=d;
        }
-        vector<int> temp;
-        temp = nums;
-        sort(temp.begin(), temp.end());
-        if (temp == nums) return res+1;
         return res;
     }
 };
