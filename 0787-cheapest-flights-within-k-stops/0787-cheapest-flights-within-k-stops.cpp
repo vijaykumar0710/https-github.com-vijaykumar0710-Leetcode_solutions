@@ -30,7 +30,6 @@ public:
         return maxi==INT_MAX?-1:maxi;
     }
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int k) {
-        adj.clear();
         for (auto e : flights) 
             adj[e[0]].push_back({e[1], e[2]});
        int res=dijkstra(src, dst, k,n);
