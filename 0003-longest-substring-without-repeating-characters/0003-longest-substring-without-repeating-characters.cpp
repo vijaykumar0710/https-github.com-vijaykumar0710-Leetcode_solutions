@@ -13,7 +13,6 @@ bool isValid(string &s,int mid){
         i++;
      }
     }
-    if(st.size()==mid) return true;
     return false;
 }
     int lengthOfLongestSubstring(string s) {
